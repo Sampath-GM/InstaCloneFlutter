@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:sampat/pages/homepage.dart";
+import "package:sampat/pages/profile.dart";
 import "package:sampat/pages/search.dart";
 import "package:sampat/pages/shop.dart";
 import "package:sampat/widgets/drawer.dart";
@@ -25,7 +26,7 @@ final List<Widget> _children = [
 const UserSearch(),
 const Center(child: Text("reels")),
 const Usershop(),
-const Center(child: Text("profile")),
+const MyProfile(),
 
 ];
 
