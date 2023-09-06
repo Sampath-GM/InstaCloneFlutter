@@ -11,10 +11,18 @@ class Userhome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
         title:const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Instagram"),
+            Text("Instagram",
+            
+            style: TextStyle(color: Colors.black,       
+            fontFamily: AutofillHints.birthday,
+            ),
+            
+            ),
             Row(
               children: [
                 Icon(Icons.add),
